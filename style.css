@@ -26,34 +26,13 @@ body {
 }
 
 h1 {
-  padding: 0 0.5rem;
+  padding: 0 2rem;
   font-size: 4rem;
   font-weight: 900;
   color: black;
   background: white;
   border: 4px solid black;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-h2 {
-  width: fit-content;
-  padding: 0 0.5rem;
-  font-style: italic;
-  background: black;
-  border: 4px solid black;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
-h2 span {
-  font-style: normal;
-}
-
-h2 span span {
-  display: inline-block;
-  transform: scale(-1, 1);
+  border-radius: 0.5rem;
 }
 
 h3 {
