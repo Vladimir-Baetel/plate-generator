@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
+  background-image: url("bmw.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  height: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+h1 {
+  padding: 0 0.5rem;
+  font-size: 4rem;
+  font-weight: 900;
+  color: black;
+  background: white;
+  border: 4px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+h2 {
+  width: fit-content;
+  padding: 0 0.5rem;
+  font-style: italic;
+  background: black;
+  border: 4px solid black;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+h2 span {
+  font-style: normal;
+}
+
+h2 span span {
+  display: inline-block;
+  transform: scale(-1, 1);
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: white;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+.outer-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.inner-container {
+  width: 90%;
+  height: 80%;
+  padding-bottom: 2rem;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.column {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.inner-column {
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-color: white transparent;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  font-size: 1.75rem;
+  font-weight: ;
+}
+
+.license-plate {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.country {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.number {
+  width: 100%;
+  padding: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number span {
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: black;
+}
+
+.flag {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002f9a;
+  border-top-left-radius: 3px;
+}
+
+.flag img {
+  width: 90%;
+}
+
+.initials {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  background-color: #002f9a;
+  border-bottom-left-radius: 3px;
+}
